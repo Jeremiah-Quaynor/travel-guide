@@ -3,7 +3,7 @@ import {BsPerson} from 'react-icons/bs'
 import {BiSearch} from 'react-icons/bi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
-import {faLinkedIn, faInstagram, faTwitter, faYoutube } from 'react-icons/fa'
+import { FaLinkedinIn, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 
 
@@ -55,10 +55,10 @@ const Navbar = () => {
                 <button>Account</button>
             </div>
             <div className='flex justify-between my-6' >
-                <faLinkedIn className='icon' />
-                <faTwitter className='icon'/>
-                <faYoutube className='icon'/>
-                <faInstagram className='icon'/>
+                <FaLinkedinIn className='icon' />
+                <FaTwitter className='icon'/>
+                <FaYoutube className='icon'/>
+                <FaInstagram className='icon'/>
             </div>
         </ul>
         </div>
