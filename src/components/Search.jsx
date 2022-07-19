@@ -8,7 +8,7 @@ const Search = () => {
     <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16'>
       <div className='lg:col-span-2 flex-col justify-evenly'>
         <div>
-          <h2>LUXURT INCLUDED VACATIONS FOR TWO PEOPLE</h2>
+          <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
           <p className='py-4'>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
           the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
@@ -57,13 +57,13 @@ const Search = () => {
           </div>
           <div  className='flex flex-col my-2'>
             <label >Check-In</label>
-            <input className='border rounded-md p-2' type="date" />
+            <input className='border rounded-md p-2 pl-2 w-full' type="date" />
           </div>
           <div  className='flex flex-col my-2'>
             <label >Check-Out</label>
-            <input className='border rounded-md p-2' type="date" />
+            <input className='border rounded-md p-2 pl-2 w-full' type="date" />
           </div>
-          <div  className='flex flex-col my-2'>
+          <div  className='flex flex-col my-2 w-full'>
           <button className='w-full my-4'>Rates & Availabilities</button>
           </div>
 
